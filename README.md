@@ -22,7 +22,6 @@ Este contrato incluye las siguientes funciones básicas de un token ERC-20:
 
 - Transferencias entre direcciones
 - Aprobaciones para gasto delegado
-- Consulta de balances
 - Total supply inicial definido
 
 ---
@@ -33,19 +32,3 @@ Este contrato incluye las siguientes funciones básicas de un token ERC-20:
 - MetaMask para firmar y publicar la transacción
 - Solidity para la programación del contrato
 - Ethereum Mainnet como red de despliegue
-
----
-
-## 📝 Código del contrato (resumen)
-
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-
-contract DevToken is ERC20 {
-    constructor(uint256 initialSupply) ERC20("DevToken", "DVT") {
-        _mint(msg.sender, initialSupply * 10 ** decimals());
-    }
-}
