@@ -11,7 +11,7 @@ Lastimosamente la imagen no puede cargarse porque no puedo pagar la cantidad req
 - **Nombre:** DevToken  
 - **Símbolo:** DVT  
 - **Decimales:** 18  
-- **Red:** Ethereum Mainnet  
+- **Red:** SepoliaETH testnet  
 - **Dirección del contrato:** [`0xde45ce5ac8c44cd431dc15ee625dc99c35c28b47`](https://etherscan.io/token/0xde45ce5ac8c44cd431dc15ee625dc99c35c28b47)
 
 ---
@@ -22,7 +22,6 @@ Este contrato incluye las siguientes funciones básicas de un token ERC-20:
 
 - Transferencias entre direcciones
 - Aprobaciones para gasto delegado
-- Consulta de balances
 - Total supply inicial definido
 
 ---
@@ -33,19 +32,3 @@ Este contrato incluye las siguientes funciones básicas de un token ERC-20:
 - MetaMask para firmar y publicar la transacción
 - Solidity para la programación del contrato
 - Ethereum Mainnet como red de despliegue
-
----
-
-## 📝 Código del contrato (resumen)
-
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-
-contract DevToken is ERC20 {
-    constructor(uint256 initialSupply) ERC20("DevToken", "DVT") {
-        _mint(msg.sender, initialSupply * 10 ** decimals());
-    }
-}
