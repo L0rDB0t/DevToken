@@ -11,7 +11,7 @@ Lastimosamente la imagen no puede cargarse porque no puedo pagar la cantidad req
 - **Nombre:** DevToken  
 - **Símbolo:** DVT  
 - **Decimales:** 18  
-- **Red:** Ethereum Mainnet  
+- **Red:** SepoliaETH testnet  
 - **Dirección del contrato:** [`0xde45ce5ac8c44cd431dc15ee625dc99c35c28b47`](https://etherscan.io/token/0xde45ce5ac8c44cd431dc15ee625dc99c35c28b47)
 
 ---
