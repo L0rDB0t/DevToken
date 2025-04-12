@@ -1,0 +1,10 @@
+{
+    "name": "DevToken",
+    "symbol": "DVT",
+    "decimals": 18,
+    "address": "0xde45ce5ac8c44cd431dc15ee625dc99c35c28b47",
+    "chainId": 1,
+    "logoURI": "https://img.freepik.com/vector-gratis/v-logotipo-identidad-marca-diseno-logotipo-vectorial-corporativo_460848-18642.jpg?t=st=1744422204~exp=1744425804~hmac=3cc51fd2a0d264245d83e8764c23011b3befbbfdc03fe75004238cd355ac0bb4&w=1800",
+    "tags": ["token"]
+  }
+  
